@@ -21,8 +21,8 @@ This approach supports visual analysis, disaster monitoring, and research into w
 
 | Input Image | Predicted Mask |
 |-----------------|----------------|
-| ![](assets/sample1.png) | ![](assets/sample1.png) |
-| ![](assets/input2.png) | ![](assets/input2.png) |
+| ![](assets/sample1_input.png) | ![](assets/sample1_output.png) |
+| ![](assets/sample2_input.png) | ![](assets/sample2_output.png) |
 
 > *(Make sure to place your sample images inside an `assets/` folder in your repo.)*
 
