@@ -1,1 +1,2 @@
-WILDFIRE SEGMNETATION
+# WildFire-Segmentation
+
