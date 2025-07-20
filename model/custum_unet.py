@@ -31,7 +31,7 @@ class UNet(nn.Module):
         self.dec1 = DoubleConv(128, 64)
 
         self.output = nn.Conv2d(64, out_channels, kernel_size=1)
-        self.activation = nn.Sigmoid()  # <- Added sigmoid for binary segmentation
+        self.activation = nn.Sigmoid() 
 
     def forward(self, x):
         enc1 = self.enc1(x)
@@ -39,4 +39,4 @@ class UNet(nn.Module):
         bottleneck = self.bottleneck(self.pool2(enc2))
         dec2 = self.dec2(torch.cat([self.up2(bottleneck), enc2], dim=1))
         dec1 = self.dec1(torch.cat([self.up1(dec2), enc1], dim=1))
-        return self.activation(self.output(dec1))  # <- Apply sigmoid
+        return self.activation(self.output(dec1)) 

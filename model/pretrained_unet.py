@@ -9,7 +9,7 @@ class PretrainedUNet(nn.Module):
             encoder_weights=encoder_weights,
             in_channels=in_channels,
             classes=classes,
-            activation=activation  # Use 'sigmoid' for binary segmentation, 'softmax' for multi-class
+            activation=activation
         )
 
     def forward(self, x):

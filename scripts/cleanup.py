@@ -8,7 +8,7 @@ def remove_corrupt_images(folder):
             with Image.open(path) as img:
                 img.verify()
         except Exception:
-            print(f"❌ Deleting corrupt file: {file}")
+            print(f" Deleting corrupt file: {file}")
             os.remove(path)
 
 remove_corrupt_images("data/images")
