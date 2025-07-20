@@ -1,0 +1,34 @@
+# Ignore virtual environments
+venv/
+.venv/
+
+# Ignore all files in data except .txt metadata files
+data/*
+!data/**/*.txt
+!data/*.txt
+
+# Ignore zip files
+*.zip
+
+# Ignore outputs/results
+outputs/
+touch outputs/.gitkeep
+
+
+# Ignore model checkpoints
+checkpoints/
+*.pt
+*.pth
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter/IPython cache
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# Ignore logs or temporary debug files
+*.log
+*.tmp
