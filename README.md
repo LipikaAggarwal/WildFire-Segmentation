@@ -30,8 +30,9 @@ This approach supports visual analysis, disaster monitoring, and research into w
 
 ## 📦 Dataset
 
-- **Name**: [FLAME: Fire-Labeled Atmospheric Monitoring of Earth](https://www.kaggle.com/datasets/datasetsnew/flame)  
-- **Source**: Kaggle  
-- **Type**: Satellite images with corresponding fire segmentation masks  
-- **Purpose**: Enables supervised training of wildfire segmentation models
+- **Name**: Fire Segmentation Dataset  
+- **Source**: [Kaggle – Fire Segmentation Dataset](https://www.kaggle.com/datasets/killa92/fire-segmentation-dataset?utm_source=chatgpt.com)  
+- **Type**: Simulated aerial images with corresponding binary fire masks  
+- **Usage**: Used for supervised learning in wildfire segmentation tasks
 
+---
