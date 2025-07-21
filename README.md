@@ -1,8 +1,8 @@
 # 🔥 Wildfire Segmentation Using Deep Learning
 
-This project focuses on segmenting wildfire-affected regions from aerial imagery using a deep learning model. It identifies fire zones at the pixel level, making it easier to visualize the spatial extent of wildfire damage.
+This project uses a U-Net-based deep learning model to segment wildfire-affected regions from aerial imagery. It detects fire zones at the pixel level and generates binary masks that highlight the damaged areas.
 
-The model is based on a U-Net architecture and is trained to generate binary masks that highlight fire-affected areas in the input imagery.
+Built for disaster monitoring and environmental analysis, the system helps visualize the spatial spread of wildfires. This enables timely response, risk assessment, and improved resource allocation during wildfire events.
 
 ---
 
